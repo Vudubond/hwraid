@@ -15,7 +15,7 @@ import argparse
 if sys.platform == "win32":
     import ctypes
 
-def_megaclipath = "/opt/MegaRAID/MegaCli/MegaCli64"
+def_megaclipath = "/opt/MegaRAID/storcli/storcli64"
 
 # Non-Nagios Mode defaults
 nagiosmode = False
